@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="JavaEETemplate-SprinMVC:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="JavaEESpringMVCTemplate.war">
+      <element id="artifact" artifact-name="JavaEETemplate-SprinMVC:war exploded" />
+    </root>
+  </artifact>
+</component>

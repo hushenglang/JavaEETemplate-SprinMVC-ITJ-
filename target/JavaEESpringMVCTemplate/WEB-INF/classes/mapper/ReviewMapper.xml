@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.hsl.ecargo.dao.ReviewMapper">
+	<resultMap type="com.hsl.ecargo.common.po.ReviewPo"
+		id="reviewMap">
+		<id property="id" column="id" />
+		<result property="rating" column="rating" />
+		<result property="comment" column="comment" />
+		<result property="productId" column="product_id" />
+		<result property="userId" column="user_id" />
+		<result property="dateTime" column="date_time" />
+		<result property="isNew" column="is_new" />
+	</resultMap>
+</mapper>
